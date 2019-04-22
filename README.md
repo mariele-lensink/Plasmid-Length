@@ -1,2 +1,4 @@
 # Plasmid-Length
-Program uses raw reads from oxford nanopore sequencing data and selects out reads that are the predicted plasmid size determined statistically by the distribution of read lengths.
+Program uses raw reads from Oxford Nanopore sequencing data to estimate plasmid size and create subselection of high quality reads of a similar length.
+
+
