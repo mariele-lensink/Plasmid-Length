@@ -10,9 +10,12 @@ Creates a fastq file of reads that are of similar length to the predicted length
 
 ## Command Line Options
 --inFile [X]      (Required) input file 
+
 --outFile [X]     (Required) name for output file
+
 -s                (Optional) Uses otsu threshold method to separate a the bimodal distribution of read lengths. Use this 
                   option when your data shows a greater number or short length reads than long reads.
+                  
 -q                (Optional) After reads are selected, their average phred quality score will be calculated. If it is below 
                   14, they will be filtered out of the final output.
                   *using this option may lower the number of reads in your final output file*
