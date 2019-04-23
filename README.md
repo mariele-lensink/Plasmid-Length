@@ -24,6 +24,7 @@ Creates a fastq file of reads that are of similar length to the predicted length
 
   *program will produce a single histogram plot, ideally like this:*
   ![Frequency of Read Lengths](https://github.com/mariele-lensink/PlasmidSizeSelector/blob/master/githubexample1.png)
+  
   *then it will write an output file called "exampleReadsOutput.fastq" (according to user input) of all of the reads from the bin with the highest count*
   
 ### Separating a Bimodal Distribution (using -s option)
@@ -31,6 +32,8 @@ Creates a fastq file of reads that are of similar length to the predicted length
 
   *program will first produce the same initial plot as the default settting:*
   ![Frequency of Read Lengths](https://github.com/mariele-lensink/PlasmidSizeSelector/blob/master/githubexample1.png)
+  
   *but after calculating the threshold value between the 2 modes, will produce a second plot, this time only containg the reads after the cutoff*
   ![Frequency of Read Lengths Greater than Threshold Value](https://github.com/mariele-lensink/PlasmidSizeSelector/blob/master/githubexample2.png)
+  
   *then it will write an output file called "exampleReadsOutput.fastq" (according to user input) of all of the reads from the bin with the highest count*
