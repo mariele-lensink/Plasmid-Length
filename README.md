@@ -6,7 +6,7 @@ Uses a fastq file of raw reads from a single plasmid sample. Program is intended
 (currently being edited to take in .gz files)
 
 ## Output
-Creates a fasta file of reads that are of similar length to the predicted length of the plasmid.
+Creates a fastq file of reads that are of similar length to the predicted length of the plasmid.
 
 ## Command Line Options
 --inFile [X]      (Required) input file 
@@ -25,7 +25,7 @@ Creates a fasta file of reads that are of similar length to the predicted length
   *program will produce a single histogram plot, ideally like this:*
   ![Frequency of Read Lengths](githubexample1.jpg)
   
-  *then it will write an output file called "exampleReadsOutput.fastq" (according to user input) of all of the reads from the bin with the highest count 
+  *then it will write an output file called "exampleReadsOutput.fastq" (according to user input) of all of the reads from the bin with the highest count*
   
 ### Separating a Bimodal Distribution (using -s option)
 ./plasmidsizeselector.py --inFile exampleReads.fastq --outFile exampleReadsOutput.fastq -s
@@ -33,7 +33,7 @@ Creates a fasta file of reads that are of similar length to the predicted length
   *program will first produce the same initial plot as the default settting:*
   ![Frequency of Read Lengths](githubexample1.jpg)
   
-  *but after calculating the threshold value between the 2 modes, will produce a second plot, this time only containg the reads after the cutoff. *
+  *but after calculating the threshold value between the 2 modes, will produce a second plot, this time only containg the reads after the cutoff*
   ![Frequecny of Read Lengths Greater than Threshold Value](githubexample2.jpg)
   
-  *then it will write an output file called "exampleReadsOutput.fastq" (according to user input) of all of the reads from the bin with the highest count 
+  *then it will write an output file called "exampleReadsOutput.fastq" (according to user input) of all of the reads from the bin with the highest count*
