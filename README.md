@@ -2,8 +2,9 @@
 Program uses raw reads from Oxford Nanopore sequencing data to estimate plasmid size and creates a subselection of high quality reads of a similar length.
 
 ## Input
-Uses a fastq file of raw reads from a single plasmid sample. Program is intended to be used with Oxford Nanopore Sequencing Data.
-(currently being edited to take in .gz files)
+Uses a fastq file (can be compressed) of raw reads from a single plasmid sample. Program is intended to be used with Oxford Nanopore Sequencing Data.
+*suffixes: .fastq or .gz*
+
 
 ## Output
 Creates a fastq file of reads that are of similar length to the predicted length of the plasmid.
